@@ -538,6 +538,14 @@ video {
   margin-top: 40px;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -548,6 +556,10 @@ video {
 
 .h-\[100px\]{
   height: 100px;
+}
+
+.h-\[10px\]{
+  height: 10px;
 }
 
 .h-\[240px\]{
@@ -770,18 +782,9 @@ video {
     justify-content: space-between;
   }
 
-  .lg\:rounded{
-    border-radius: 0.25rem;
-  }
-
   .lg\:rounded-r-\[8px\]{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-  }
-
-  .lg\:rounded-t{
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
   }
 
   .lg\:rounded-t-none{
